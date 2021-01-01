@@ -1,0 +1,9 @@
+name: drive
+channels:
+  - defaults
+dependencies:
+  - pip
+  - termcolor
+  - pip:
+    - git+https://github.com/googleworkspace/PyDrive.git
+
